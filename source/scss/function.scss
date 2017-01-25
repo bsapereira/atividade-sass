@@ -1,0 +1,4 @@
+@function calc_margin_top($height, $font_size){
+	$correcao: round($font_size/5); //Fator corretor devido à diferença entre font-size e height ocupado.
+	@return ($height - $font_size - $correcao)/2;
+}

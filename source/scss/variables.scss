@@ -1,0 +1,25 @@
+$nav-width: 500px;
+$nav-height: 40px;
+$nav-padding: 0 10px;
+$nav-margin: 5px;
+
+$nav-brand-fontsize: 20px;
+$nav-brand-margintop: calc_margin_top($nav-height, $nav-brand-fontsize);
+
+$nav-menu-fontsize: 14px;
+$nav-menu-margintop: calc_margin_top($nav-height, $nav-menu-fontsize);
+
+$nav-redtheme-bg: red;
+$nav-redtheme-color: #fff;
+$nav-redtheme-border: 1px solid #000;
+
+$nav-greentheme-bg: green;
+$nav-greentheme-color: #000;
+$nav-greentheme-border: 1px solid red;
+
+$nav-bluetheme-bg: blue;
+$nav-bluetheme-color: red;
+$nav-bluetheme-border: 1px solid green;
+
+$hover-bg: #fff;
+$hover-color: #000;

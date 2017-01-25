@@ -1,0 +1,13 @@
+@mixin theme($theme, $bg-theme, $color-theme, $border-theme){
+	.nav-#{$theme}{
+		background-color: $bg-theme;
+		color: $color-theme;
+		border: $border-theme;
+	}
+	.nav-menu-item{
+		&:hover{
+			background-color: $hover-bg;
+			color: $hover-color;
+		}
+	}
+}

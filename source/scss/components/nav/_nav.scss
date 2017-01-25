@@ -1,0 +1,10 @@
+.nav {
+	width: $nav-width;
+	height: $nav-height;
+	padding: $nav-padding;
+	margin: $nav-margin;
+}
+
+@include theme("red-theme", $nav-redtheme-bg, $nav-redtheme-color, $nav-redtheme-border);
+@include theme("green-theme", $nav-greentheme-bg, $nav-greentheme-color, $nav-greentheme-border);
+@include theme("blue-theme", $nav-bluetheme-bg, $nav-bluetheme-color, $nav-bluetheme-border);

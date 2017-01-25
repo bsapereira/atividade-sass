@@ -1,0 +1,10 @@
+.nav-menu{
+	float: right;
+	font-size: $nav-menu-fontsize;
+	margin-top: $nav-menu-margintop;
+}
+
+.nav-menu-list li{
+	display: inline-block;
+	padding: 0 5px;
+}
